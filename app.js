@@ -121,7 +121,6 @@ function updateUI(){
  name0.innerText=match.players[0];name1.innerText=match.players[1];
  const pts=readablePointDisplay();
  [0,1].forEach(i=>{
-  document.getElementById(`points${i}`).innerText=pts[i];
   document.getElementById(`centralPoint${i}`).innerText=pts[i];
   document.getElementById(`games${i}`).innerText=match.score.games[i];
   document.getElementById(`sets${i}`).innerText=match.score.sets[i];
