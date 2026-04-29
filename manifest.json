@@ -1,10 +1,11 @@
 {
   "name": "Placar de Tênis",
-  "short_name": "Tênis Score",
-  "start_url": "./index.html",
+  "short_name": "Tênis",
+  "start_url": ".",
+  "scope": ".",
   "display": "standalone",
-  "background_color": "#0f172a",
-  "theme_color": "#0f172a",
-  "orientation": "landscape",
+  "background_color": "#111827",
+  "theme_color": "#111827",
+  "orientation": "portrait",
   "icons": []
 }
